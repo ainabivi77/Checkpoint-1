@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d499b2bcb0.js" crossorigin="anonymous"></script>
+    <title>Checkpoint-1</title>
+</head>
+<body>
+
+    <style>
+        .gridOne {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .gridTwo {
+            display: grid;
+            grid-template-columns: 1fr 1fr 2fr;
+        }
+
+        .rojo {
+            background-color: red;
+        }
+
+        .azul {
+            background-color: blue;
+        }
+
+        .amarillo {
+            background-color: yellow;
+        }
+
+        .gridThree {
+            display: grid;
+            grid-template-rows: 1fr 3fr;
+            width: 500px;
+            height: 300px;
+            background-color: beige;
+
+        }
+
+        .imagen img {
+            width: 500px;
+            height: 225px;
+            object-fit: cover;
+        }
+
+        .gridFour  {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            background-color: green;
+            width: 500px;    
+        }
+
+        #texto-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        
+        .gridFive {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            background-color: beige;
+            width: 500px;
+        }
+
+        .instrumentos {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+        }
+        
+        .instrumentos img {
+            object-fit: cover;
+            width: 200px;
+            height: 200px;
+        }
+
+        .gridSix {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            width: 500px;
+            background-color: lightgray;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .icon   {
+            font-size: 2em;
+        }
+
+    
+        
+        .gridSix p {
+            font-family: Lobster, Arial, Helvetica, sans-serif;
+            font-size: 1.2em;
+        }
+    </style>
+
+    <div class="gridOne">
+        <p>Hello World</p>
+        <p style="color:blue">My fantastic content</p>
+    </div>
+
+    <div class="gridTwo">
+        <div class="rojo">
+            <p>Texto en Rojo</p>
+        </div>
+        <div class="azul">
+            <p>Texto en azul</p>
+        </div>
+        <div class="amarillo">
+            <p>Texto amarillo</p>
+        </div>
+    </div>
+
+    <div class="gridThree">
+        <div class="texto">
+            <p>The text I chose is Awesome</p>
+        </div>
+
+        <div class="imagen">
+            <img src="images/david-lusvardi-dWcUncxocQY-unsplash.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="gridFour">
+        <div class="texto-1">
+            <p>
+                My even More Awesome text
+            </p>
+        </div>
+
+        <div id="texto-2">
+        <p>My left text</p>
+        <p>My right text</p>
+        </div>
+    </div>
+
+    <div class="gridFive">
+        <div class="texto-3">
+            <p>
+                My Even More Awesome Text
+            </p>
+        </div>
+
+        <div class="instrumentos">
+            <img src="images/caleb-george-pH88tHG-1yw-unsplash.jpg" alt="">
+            <img src="images/gabriel-barletta--lWcaUVJ39Y-unsplash.jpg" alt="">
+        </div>    
+    </div>
+
+    <div class="gridSix">
+        <div class="icon">
+            <i class="fa-solid fa-guitar"></i>
+        </div>
+        <div class="titulo"> 
+            <p>My Awesome google font is applied here</p>   
+        </div>
+    </div>  
+</body>
+</html>
